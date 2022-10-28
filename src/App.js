@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import {ThemeProvider} from "styled-components"
+import About from "./components/About";
+import Header from "./components/Header";
+import Projects from "./components/Projects";
+import GlobalStyles from "./components/styledComponents/Global";
+import TechnologyStack from "./components/TechnologyStack";
+import ThemeChanger from "./components/ThemeChanger";
 
 function App() {
+
+  const [bodytheme, setBodyTheme] = useState(true);
+  
+  const theme = {
+    colors : {
+      body: bodytheme ? "#F9FAFB" : "#1B1F24",
+    },
+    
+    mobile : "768px",
+    tab : "968px",
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <>
+        <GlobalStyles/>
+        <ThemeChanger setBodyTheme={setBodyTheme} bodytheme={bodytheme} />
+        <Header/>
+        <About/>
+        <TechnologyStack/>
+        <Projects/>
+      </>
+    </ThemeProvider>
   );
 }
 
