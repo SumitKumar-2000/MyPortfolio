@@ -23,7 +23,7 @@ const Projects = () => {
         Image : require('../assets/NOTESHELL_Login.png'),
         Head : "Notes Manager WebApp | NoteShell",
         Info : "The WebApp utility allows you to create, edit, and manage your notes, you would able to set title, description, and category of the note. Whenever a note is created a note creation date will be assigned to it.",
-        techStack : "• HTML • CSS • Bootstrap • Javascript • React.Js • Node.Js • Express.Js • Postman • Mongoose • MongoDB • JWT"
+        techStack : "• HTML • CSS • Bootstrap • Javascript • React.Js • Redux • Node.Js • Express.Js • Postman • Mongoose • MongoDB • JWT"
     },
     {
         id : 3,
@@ -32,7 +32,7 @@ const Projects = () => {
         Image : require('../assets/Xepenser_AddExpense.png'),
         Head : "Expense Manager WebApp | Xepenser",
         Info : "Web utility which allows you to add your daily expenses, commodity along with their price, and keep track of them. It also provides you the functionality to set the category e.g. Education, Food, Shoping, Healthcare, etc for you expense.",
-        techStack : "• HTML • CSS • JavaScript • React.Js"
+        techStack : "• HTML • CSS • JavaScript • React.Js • Redux"
     },
     {
         id : 4,
