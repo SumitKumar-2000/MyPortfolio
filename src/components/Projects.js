@@ -14,7 +14,52 @@ const Projects = () => {
         Image : require('../assets/ZOMATO_Login.png'),
         Head : "Food Ordering WebApp | Foodde!",
         Info : "A Food Ordeing website where users would able to add their food items to cart, search restaurant of their choice according to their mood preference and purchase food via online payment method- Razorpay payment gateway.",
-        techStack : "• HTML • CSS • JavaScript • React.Js • Redux • Node.Js • Express.Js • Postman • Mongoose • MongoDB • JWT"
+        techStack : [
+            {
+                id : 1,
+                tech : "HTML"
+            },
+            {
+                id : 2,
+                tech : "CSS"
+            },
+            {
+                id : 3,
+                tech : "Javascript"
+            },
+            {
+                id : 4,
+                tech : "React.Js"
+            },
+            {
+                id : 5,
+                tech : "Redux"
+            },
+            {
+                id : 6,
+                tech : "Node.Js"
+            },
+            {
+                id : 7,
+                tech : "Express.Js"
+            },
+            {
+                id : 8,
+                tech : "Postman"
+            },
+            {
+                id : 9,
+                tech : "Mongoose"
+            },
+            {
+                id : 10,
+                tech : "MongoDB"
+            },
+            {
+                id : 11,
+                tech : "JWT"
+            },
+        ],
     },
     {
         id : 2,
@@ -23,7 +68,56 @@ const Projects = () => {
         Image : require('../assets/NOTESHELL_Login.png'),
         Head : "Notes Manager WebApp | NoteShell",
         Info : "The WebApp utility allows you to create, edit, and manage your notes, you would able to set title, description, and category of the note. Whenever a note is created a note creation date will be assigned to it.",
-        techStack : "• HTML • CSS • Bootstrap • Javascript • React.Js • Redux • Node.Js • Express.Js • Postman • Mongoose • MongoDB • JWT"
+        techStack : [
+            {
+                id : 1,
+                tech : "HTML"
+            },
+            {
+                id : 2,
+                tech : "CSS"
+            },
+            {
+                id : 3,
+                tech : "Bootstrap"
+            },
+            {
+                id : 4,
+                tech : "Javascript"
+            },
+            {
+                id : 5,
+                tech : "React.Js"
+            },
+            {
+                id : 6,
+                tech : "Redux"
+            },
+            {
+                id : 7,
+                tech : "Node.Js"
+            },
+            {
+                id : 8,
+                tech : "Express.Js"
+            },
+            {
+                id : 9,
+                tech : "Postman"
+            },
+            {
+                id : 10,
+                tech : "Mongoose"
+            },
+            {
+                id : 11,
+                tech : "MongoDB"
+            },
+            {
+                id : 12,
+                tech : "JWT"
+            },
+        ],
     },
     {
         id : 3,
@@ -32,7 +126,28 @@ const Projects = () => {
         Image : require('../assets/Xepenser_AddExpense.png'),
         Head : "Expense Manager WebApp | Xepenser",
         Info : "Web utility which allows you to add your daily expenses, commodity along with their price, and keep track of them. It also provides you the functionality to set the category e.g. Education, Food, Shoping, Healthcare, etc for you expense.",
-        techStack : "• HTML • CSS • JavaScript • React.Js • Redux"
+        techStack : [
+            {
+                id : 1,
+                tech : "HTML"
+            },
+            {
+                id : 2,
+                tech : "CSS"
+            },
+            {
+                id : 3,
+                tech : "Javascript"
+            },
+            {
+                id : 4,
+                tech : "React.Js"
+            },
+            {
+                id : 5,
+                tech : "Redux"
+            },
+        ],
     },
     {
         id : 4,
@@ -41,7 +156,28 @@ const Projects = () => {
         Image : require('../assets/TEXTDESK_Home.png'),
         Head : "Text Formatter WebApp | TextDesk",
         Info : "TextDesk is a utility which analyzes text quickly and allows user to find word count, find character count, copy text, clear text or remove extra spaces. It reports instant character count and word count statistics for a given text.",
-        techStack : "• HTML • CSS • Bootstrap • JavaScript • React.Js"
+        techStack : [
+            {
+                id : 1,
+                tech : "HTML"
+            },
+            {
+                id : 2,
+                tech : "CSS"
+            },
+            {
+                id : 3,
+                tech : "Bootstrap"
+            },
+            {
+                id : 5,
+                tech : "Javascript"
+            },
+            {
+                id : 6,
+                tech : "React.Js"
+            },
+        ],
     },
   ]
 
@@ -56,9 +192,13 @@ const Projects = () => {
                             <div className='projectInfoContainer'>
                                 <h1>{project.Head}</h1>
                                 <p>{project.Info}</p>
-                                <a href={project.repoLink}><h3>🔗Github Repo</h3></a>
-                                <p className='techStack'>{project.techStack}</p>
-                                <a href={project.demoLink}><TransparentButton>View Demo</TransparentButton></a>
+                                <a target="_blank" rel="noreferrer" href={project.repoLink}><h3>🔗Github Repo</h3></a>
+                                <div className='techStack'>
+                                    {project.techStack.map(item => (
+                                       <div className='tech' key={item.id}>{item.tech}</div>
+                                    ))}
+                                </div>
+                                <a target="_blank" rel="noreferrer" href={project.demoLink}><TransparentButton>View Demo</TransparentButton></a>
                             </div>
                             <div className='.projectImageContainer'>
                                 <img src={project.Image} alt={project.Image}/>

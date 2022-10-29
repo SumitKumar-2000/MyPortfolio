@@ -7,11 +7,11 @@ export const ThemeMode = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    cursor: pointer;
-    color: #0284c7;
-
+    
     .themeIcon{
-        font-size: 3em
+        font-size: 3em;
+        cursor: pointer;
+        color: #0284c7;
     }
 
     @media(max-width: ${({theme}) => theme.mobile}){

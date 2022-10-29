@@ -14,6 +14,11 @@ export const Button = styled.button`
     padding: 12px 20px;
     width: 10em;
 
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
     &:hover{
         background-color: #0284c7;
         box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -33,7 +38,13 @@ export const TransparentButton = styled.button`
     width: 10em;
     transition: all 0.4s 0s ease;
 
+    a{
+        text-decoration: none;
+        color: #0ea5e9;
+    }
+    
     &:hover{
         box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
     }
+
 `

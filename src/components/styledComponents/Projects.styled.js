@@ -5,6 +5,7 @@ export const ProjectsContainer = styled.div`
     margin: 2rem auto;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid #88909B;
 
     @media(max-width: ${({theme})=> theme.mobile}){
         width: 768px;
@@ -41,9 +42,24 @@ export const Card = styled.div`
     }
 
     .techStack{
-        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: start;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 2em 0;
+        margin: auto;
         color: ${({theme}) => theme.colors.body === "#F9FAFB" ? "#333333" : "#dddddd"};
-
+        
+        .tech{
+            padding: 5px 10px;
+            font-weight: bold;
+            border-radius: 4px;
+            background-color: ${({theme}) => theme.colors.body === "#F9FAFB" ? "#ffffff" : "#24292F"};
+            box-shadow: 0 20px 25px -5px #0000001a;
+            margin: 0.2em;
+       }
     }
 
     img{
@@ -103,6 +119,10 @@ export const Card = styled.div`
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        .techStack{
+            justify-content: center;
         }
     }
 `

@@ -5,7 +5,7 @@ import { FaInnosoft } from "react-icons/fa";
 const ThemeChanger = ({setBodyTheme, bodytheme}) => {
   return (
     <ThemeMode>
-        <FaInnosoft onClick={()=>setBodyTheme(!bodytheme)} className="themeIcon"/> 
+        <><FaInnosoft onClick={()=>setBodyTheme(!bodytheme)} className="themeIcon"/></>
     </ThemeMode>
   )
 }

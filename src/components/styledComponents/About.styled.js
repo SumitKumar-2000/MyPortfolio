@@ -11,6 +11,12 @@ export const StyledAbout = styled.div`
         flex-direction: column;
         align-self: flex-start;
         padding: 1rem 3rem;
+
+        .country{
+            background: linear-gradient(132deg,#eb8f0cf2 35%,#16cd70 82%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
     }
 
     h1{
@@ -32,6 +38,7 @@ export const StyledAbout = styled.div`
         flex-direction: column-reverse;
         div,p{
             text-align: center;
+            align-items: center;
         }
     }
     

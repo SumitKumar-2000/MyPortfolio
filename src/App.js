@@ -1,6 +1,7 @@
 import { useState } from "react";
 import {ThemeProvider} from "styled-components"
 import About from "./components/About";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import GlobalStyles from "./components/styledComponents/Global";
@@ -29,6 +30,7 @@ function App() {
         <About/>
         <TechnologyStack/>
         <Projects/>
+        <Footer/>
       </>
     </ThemeProvider>
   );

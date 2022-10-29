@@ -6,10 +6,17 @@ export const TechStack = styled.div`
     margin: 0 auto;
     border-bottom: 1px solid #88909B;
 
+    h1{
+        font-weight: 800;
+        color: ${({theme}) => theme.colors.body === "#F9FAFB" ? "#000000" : "#f3f4f6"};
+        font-size: 2.5em;
+        margin: 0 0 1rem 1.4em;
+    }
+
     .techStackContainer{
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
@@ -22,11 +29,12 @@ export const TechStack = styled.div`
         height: 6em;
         padding: 20px;
         border-radius: 50%;
-        /* box-shadow: 0 20px 25px -5px #0000001a; */
-        box-shadow: ${({theme}) => theme.colors.body === "#F9FAFB" ? "0 20px 25px -5px #0000001a" : "0 2px 5px 3px #dddddd"};
+        box-shadow: 0 20px 25px -5px #0000001a;
+        cursor: pointer;
         background-color: #ffffff;
-        margin: 2em;
+        margin: 1rem 2em;
     }
+
     
     img{
         width: 100%;
@@ -45,6 +53,11 @@ export const TechStack = styled.div`
             margin: 1em;
             width: 4.5em;
             height: 4.5em;
+        }
+
+        h1{
+            margin: 0 0 1rem 0;
+            text-align: center;
         }
     }
     
