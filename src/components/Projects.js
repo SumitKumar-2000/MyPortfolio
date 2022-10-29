@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from './styledComponents/Container.styled'
 import { OceanText } from './styledComponents/OceanText.styled'
 import { Card, ProjectsContainer } from './styledComponents/Projects.styled'
-import { Button } from './styledComponents/Button.styled'
+import { TransparentButton } from './styledComponents/Button.styled'
 
 const Projects = () => {
 
@@ -58,7 +58,7 @@ const Projects = () => {
                                 <p>{project.Info}</p>
                                 <a href={project.repoLink}><h3>🔗Github Repo</h3></a>
                                 <p className='techStack'>{project.techStack}</p>
-                                <a href={project.demoLink}><Button bg="#0ea5e9" style={{color:"#ffffff"}}>View Demo</Button></a>
+                                <a href={project.demoLink}><TransparentButton>View Demo</TransparentButton></a>
                             </div>
                             <div className='.projectImageContainer'>
                                 <img src={project.Image} alt={project.Image}/>
