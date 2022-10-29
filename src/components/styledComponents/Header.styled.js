@@ -20,7 +20,6 @@ export const HeaderDetailContainer = styled.div`
         text-align: center;
         letter-spacing: 2px;
         color: ${({theme}) => theme.colors.body === "#F9FAFB" ? "#374151" : "#9CA3AF"};
-
         line-height: 30px;
         font-family: 'Raleway', sans-serif;
         padding: 0 2em;
