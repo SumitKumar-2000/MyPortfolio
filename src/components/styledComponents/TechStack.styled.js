@@ -4,7 +4,7 @@ export const TechStack = styled.div`
     padding-bottom: 3rem;
     width: 100%;
     margin: 0 auto;
-    
+    border-bottom: 1px solid #88909B;
 
     .techStackContainer{
         width: 100%;
