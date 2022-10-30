@@ -2,7 +2,7 @@ import React from 'react'
 import { ImageContainer, StyledAbout } from './styledComponents/About.styled'
 import { TransparentButton } from './styledComponents/Button.styled'
 import { Container } from './styledComponents/Container.styled'
-import Resume from '../assets/Resume-SumitKumar.pdf'
+import Resume from '../assets/self/Resume-SumitKumar.pdf'
 
 const About = () => {
 
