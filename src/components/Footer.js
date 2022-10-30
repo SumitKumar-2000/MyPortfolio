@@ -1,5 +1,6 @@
 import React from 'react'
 import {StyledFooter} from '../components/styledComponents/Footer.styled'
+import { Container } from './styledComponents/Container.styled'
 
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
     {
         id : 1,
         name : "gmail",
-        socialLink : "",
+        socialLink : "mailto:sumitkumarrajput2000@gmail.com",
         socialIcon : require('../assets/gmail_black.png')
     },
     {
@@ -27,13 +28,15 @@ const Footer = () => {
   ]  
 
   return (
-    <StyledFooter>
-        {social.map(item => {
+    <Container>
+      <StyledFooter>
+          {social.map(item => {
             return <a target="_blank" rel="noreferrer" href={item.socialLink} className='socialBox' key={item.id}>
-                    <img className='socialIcon' src={item.socialIcon} alt={item.name}/>
-                </a>
-        })}
-    </StyledFooter>
+                      <img className='socialIcon' src={item.socialIcon} alt={item.name}/>
+                  </a>
+          })}
+      </StyledFooter>
+    </Container>
   )
 }
 
