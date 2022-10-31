@@ -198,7 +198,7 @@ const Projects = () => {
                                        <div className='tech' key={item.id}>{item.tech}</div>
                                     ))}
                                 </div>
-                                <a target="_blank" rel="noreferrer" href={project.demoLink}><TransparentButton>View Demo</TransparentButton></a>
+                                <TransparentButton><a  target="_blank" rel="noreferrer" href={project.demoLink} >View Demo</a></TransparentButton>
                             </div>
                             <div className='.projectImageContainer'>
                                 <img src={project.Image} alt={project.Image}/>

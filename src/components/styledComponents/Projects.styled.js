@@ -75,7 +75,7 @@ export const Card = styled.div`
         font-weight: bold; 
         display: flex;
         align-items: center;
-        
+        justify-content: center;
     }
 
     h3{
