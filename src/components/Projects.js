@@ -63,8 +63,8 @@ const Projects = () => {
     },
     {
         id : 2,
-        demoLink : 'https://foodde.netlify.app/',
-        repoLink : "https://github.com/SumitKumar-2000/e-FoodOrdering-WebApp",
+        demoLink : 'https://noteshell.netlify.app/',
+        repoLink : "https://github.com/SumitKumar-2000/MERN-WebApp-Noteshell",
         Image : require('../assets/NOTESHELL_Login.png'),
         Head : "Notes Manager WebApp | NoteShell",
         Info : "The WebApp utility allows you to create, edit, and manage your notes, you would able to set title, description, and category of the note. Whenever a note is created a note creation date will be assigned to it.",
@@ -125,7 +125,7 @@ const Projects = () => {
         repoLink : "https://github.com/SumitKumar-2000/ReactReduxWebApp-Xpenser/tree/master",
         Image : require('../assets/Xepenser_AddExpense.png'),
         Head : "Expense Manager WebApp | Xepenser",
-        Info : "Web utility which allows you to add your daily expenses, commodity along with their price, and keep track of them. It also provides you the functionality to set the category e.g. Education, Food, Shoping, Healthcare, etc for you expense.",
+        Info : "Web utility which allows you to add your daily expenses, commodity along with their price, and keep track of them. It also provides you the functionality to set the category e.g. Education, Food, Shoping, Healthcare, etc for your expense.",
         techStack : [
             {
                 id : 1,
