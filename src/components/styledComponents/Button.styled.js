@@ -41,6 +41,10 @@ export const TransparentButton = styled.button`
     a{
         text-decoration: none;
         color: #0ea5e9;
+        font-weight: bold; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     &:hover{

@@ -192,13 +192,13 @@ const Projects = () => {
                             <div className='projectInfoContainer'>
                                 <h1>{project.Head}</h1>
                                 <p>{project.Info}</p>
-                                <a className='gitHub_link' target="_blank" rel="noreferrer" href={project.repoLink}><h3>🔗Github Repo</h3></a>
+                                <h3><a target="_blank" rel="noreferrer" href={project.repoLink} >🔗Github Repo</a></h3>
                                 <div className='techStack'>
                                     {project.techStack.map(item => (
                                        <div className='tech' key={item.id}>{item.tech}</div>
                                     ))}
                                 </div>
-                                <TransparentButton><a  target="_blank" rel="noreferrer" href={project.demoLink} >View Demo</a></TransparentButton>
+                                <TransparentButton><a target="_blank" rel="noreferrer" href={project.demoLink} >View Demo</a></TransparentButton>
                             </div>
                             <div className='.projectImageContainer'>
                                 <img src={project.Image} alt={project.Image}/>

@@ -70,21 +70,14 @@ export const Card = styled.div`
         width: 100%;
     }
 
-    a{
-        text-decoration: none;
-        font-weight: bold; 
-        display: flex;
-        align-items: center;
-        justify-content: center;        
-    }
-
-    .gitHub_link{
-        display: inline;
-    }
-
     h3{
         margin: 0;
-        color: ${({theme}) => theme.colors.body === "#F9FAFB" ? "#333333" : "#FFFFFF"};
+        width: 132px;
+            
+        a{
+            text-decoration: none;
+            color: ${({theme}) => theme.colors.body === "#F9FAFB" ? "#333333" : "#FFFFFF"};
+        }
     }
 
     h1{
