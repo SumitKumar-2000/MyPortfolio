@@ -75,7 +75,11 @@ export const Card = styled.div`
         font-weight: bold; 
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center;        
+    }
+
+    .gitHub_link{
+        display: inline;
     }
 
     h3{
@@ -87,7 +91,6 @@ export const Card = styled.div`
         margin: 0;
         font-weight: bold;
         color: ${({theme}) => theme.colors.body === "#F9FAFB" ? "#000000" : "#FFFFFF"};
-        
     }
 
     p{
