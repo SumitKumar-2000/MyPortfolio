@@ -170,15 +170,49 @@ const Projects = () => {
                 tech : "Bootstrap"
             },
             {
-                id : 5,
+                id : 4,
                 tech : "Javascript"
             },
             {
-                id : 6,
+                id : 5,
                 tech : "React.Js"
             },
         ],
     },
+    {
+        id : 5,
+        demoLink : "https://filterdashboard.netlify.app/",
+        repoLink : "https://github.com/SumitKumar-2000/AgGrid-Dashboard",
+        Image : require('../assets/Dashboard.png'),
+        Head : "Dashboard | CMS",
+        Info : "This Dashboard utility coupled with two views First one is 'Grid View' where you'll find the grid/table the grid is integrated with huge filtering options and second one is 'Chart View' which represents you data in well graphical and optimized manner",
+        techStack : [
+            {
+                id : 1,
+                tech : "HTML"
+            },
+            {
+                id : 2,
+                tech : "CSS"
+            },
+            {
+                id : 3,
+                tech : "Javascript"
+            },
+            {
+                id : 4,
+                tech : "React.Js"
+            }, 
+            {
+                id : 5,
+                tech : "Styled Components"
+            }, 
+            {
+                id : 6,
+                tech : "Zustand"
+            }
+        ]
+    }
   ]
 
   return (

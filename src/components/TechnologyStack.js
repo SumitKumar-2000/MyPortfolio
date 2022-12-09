@@ -36,97 +36,97 @@ const TechnologyStack = () => {
             image : require('../assets/styledComponent.png')
         },
         {
-            id : 5,
+            id : 6,
             techName: "TAILWIND",
             url : "https://tailwindcss.com/",
             image : require('../assets/tailwindCss.png')
         },
         {
-            id : 6,
+            id : 7,
             techName: "JAVASCRIPT",
             url : "https://www.javascript.com/",
             image : require('../assets/Javascript.png')
         },
         {
-            id : 7,
+            id : 8,
             techName: "REDUX",
             url : "https://redux.js.org/",
             image : require('../assets/redux.png')
         },
         {
-            id : 8,
+            id : 9,
             techName: "ZUSTAND",
             url : "https://zustand-demo.pmnd.rs/",
             image : require('../assets/zustand.png')
         },
         {
-            id : 9,
+            id : 10,
             techName: "REACTJS",
             url : "https://reactjs.org/",
             image : require('../assets/ReactJS.png')
         },
         {
-            id : 10,
+            id : 11,
             techName: "NEXTJS",
             url : "https://nextjs.org/",
             image : require('../assets/nextjs_.png')
         },
         {
-            id : 11,
+            id : 12,
             techName: "NODEJS",
             url : "https://nodejs.org/en/",
             image : require('../assets/nodeJs.png')
         },
         {
-            id : 12,
+            id : 13,
             techName: "EXPRESSJS",
             url : "https://expressjs.com/",
             image : require('../assets/express.png')
         },
         {
-            id : 13,
+            id : 14,
             techName: "MONGODB",
             url : "https://www.mongodb.com/",
             image : require('../assets/mongoDb.png')
         },
         {
-            id : 14,
+            id : 15,
             techName: "JWT",
             url : "https://jwt.io/",
             image : require('../assets/JWT.png')
         },
         {
-            id : 15,
+            id : 16,
             techName: "FIREBASE",
             url : "https://firebase.google.com/",
             image : require('../assets/GoogleFirebase.png')
         },
         {
-            id : 16,
+            id : 17,
             techName: "POSTMAN",
             url : "https://www.postman.com/",
             image : require('../assets/postman.png')
         },
         {
-            id : 17,
+            id : 18,
             techName: "GIT",
             url : "https://git-scm.com/",
             image : require('../assets/git.png')
         },
         {
-            id : 18,
+            id : 19,
             techName: "FIGMA",
             url : "https://www.figma.com/",
             image : require('../assets/Figma.png')
         },
         {
-            id : 19,
+            id : 20,
             techName: "SPLINE3D",
             url : "https://spline.design/",
             image : require('../assets/spline.png')
         },
         {
-            id : 12,
+            id : 21,
             techName: "WORDPRESS",
             url : "https://wordpress.com/",
             image : require('../assets/wordpress.png')
