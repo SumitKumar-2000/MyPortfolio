@@ -58,6 +58,7 @@ export const ImageContainer = styled.div`
         height: 28em;
         width: 20em;
         box-shadow: 0 25px 50px -2px rgb(0 0 0 / 0.30);
+        object-fit: cover;
     }
 
     @media(max-width: ${({theme}) => theme.tab}){
