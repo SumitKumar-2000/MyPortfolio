@@ -7,130 +7,104 @@ const TechnologyStack = () => {
     const Technologies = [
         {
             id : 1,
-            techName: "C++",
-            url : "https://cplusplus.com/",
-            image : require('../assets/c++.png'),
+            techName: "HTML",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200238/Portfolio%20Images/HTML5_yedr9w.png"
         },
         {
             id : 2,
-            techName: "HTML",
-            url : "https://html.com/",
-            image : require('../assets/HTML5.png')
+            techName: "CSS",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200247/Portfolio%20Images/CSS3_yf1vkj.png"
         },
         {
             id : 3,
-            techName: "CSS",
-            url : "https://www.w3schools.com/css/",
-            image : require('../assets/CSS3.png')
+            techName: "BOOTSTRAP",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200312/Portfolio%20Images/bootstrap_ublzcb.png"
         },
+        // {
+        //     id : 5,
+        //     techName: "STYLEDCOMPONENTS",
+        //     image : require('../assets/styledComponent.png')
+        // },
         {
             id : 4,
-            techName: "BOOTSTRAP",
-            url : "https://getbootstrap.com/",
-            image : require('../assets/bootstrap.png')
+            techName: "TAILWIND",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200263/Portfolio%20Images/tailwindCss_d6kkau.png"
         },
         {
             id : 5,
-            techName: "STYLEDCOMPONENTS",
-            url : "https://styled-components.com/",
-            image : require('../assets/styledComponent.png')
+            techName: "JAVASCRIPT",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200260/Portfolio%20Images/Javascript_knqmp0.png"
         },
         {
             id : 6,
-            techName: "TAILWIND",
-            url : "https://tailwindcss.com/",
-            image : require('../assets/tailwindCss.png')
+            techName: "REDUX",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200254/Portfolio%20Images/redux_a9e3xw.png"
         },
+        // {
+        //     id : 9,
+        //     techName: "ZUSTAND",
+        //     image : require('../assets/zustand.png')
+        // },
         {
             id : 7,
-            techName: "JAVASCRIPT",
-            url : "https://www.javascript.com/",
-            image : require('../assets/Javascript.png')
+            techName: "REACTJS",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200383/Portfolio%20Images/ReactJS_o712ru.png"
         },
         {
             id : 8,
-            techName: "REDUX",
-            url : "https://redux.js.org/",
-            image : require('../assets/redux.png')
+            techName: "NEXTJS",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200740/Portfolio%20Images/nextjs__ya2ycf.png"
         },
         {
             id : 9,
-            techName: "ZUSTAND",
-            url : "https://zustand-demo.pmnd.rs/",
-            image : require('../assets/zustand.png')
+            techName: "NODEJS",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200402/Portfolio%20Images/nodeJs_y8hsjj.png"
         },
         {
             id : 10,
-            techName: "REACTJS",
-            url : "https://reactjs.org/",
-            image : require('../assets/ReactJS.png')
+            techName: "EXPRESSJS",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200411/Portfolio%20Images/express_jjaeuw.png"
         },
         {
             id : 11,
-            techName: "NEXTJS",
-            url : "https://nextjs.org/",
-            image : require('../assets/nextjs_.png')
+            techName: "MONGODB",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200427/Portfolio%20Images/mongoDb_r3enyu.png"
         },
         {
             id : 12,
-            techName: "NODEJS",
-            url : "https://nodejs.org/en/",
-            image : require('../assets/nodeJs.png')
+            techName: "JWT",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687201157/Portfolio%20Images/JWT_hwfg5j.png"
         },
         {
             id : 13,
-            techName: "EXPRESSJS",
-            url : "https://expressjs.com/",
-            image : require('../assets/express.png')
+            techName: "FIREBASE",
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200446/Portfolio%20Images/GoogleFirebase_vrqas3.png"
         },
+        // {
+        //     id : 17,
+        //     techName: "POSTMAN",
+        //     image : require('../assets/postman.png')
+        // },
         {
             id : 14,
-            techName: "MONGODB",
-            url : "https://www.mongodb.com/",
-            image : require('../assets/mongoDb.png')
-        },
-        {
-            id : 15,
-            techName: "JWT",
-            url : "https://jwt.io/",
-            image : require('../assets/JWT.png')
-        },
-        {
-            id : 16,
-            techName: "FIREBASE",
-            url : "https://firebase.google.com/",
-            image : require('../assets/GoogleFirebase.png')
-        },
-        {
-            id : 17,
-            techName: "POSTMAN",
-            url : "https://www.postman.com/",
-            image : require('../assets/postman.png')
-        },
-        {
-            id : 18,
             techName: "GIT",
-            url : "https://git-scm.com/",
-            image : require('../assets/git.png')
+            image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200511/Portfolio%20Images/git_jhgy22.png"
         },
-        {
-            id : 19,
-            techName: "FIGMA",
-            url : "https://www.figma.com/",
-            image : require('../assets/Figma.png')
-        },
-        {
-            id : 20,
-            techName: "SPLINE3D",
-            url : "https://spline.design/",
-            image : require('../assets/spline.png')
-        },
-        {
-            id : 21,
-            techName: "WORDPRESS",
-            url : "https://wordpress.com/",
-            image : require('../assets/wordpress.png')
-        },
+        // {
+        //     id : 19,
+        //     techName: "FIGMA",
+        //     image : require('../assets/Figma.png')
+        // },
+        // {
+        //     id : 20,
+        //     techName: "SPLINE3D",
+        //     image : require('../assets/spline.png')
+        // },
+        // {
+        //     id : 21,
+        //     techName: "WORDPRESS",
+        //     image : require('../assets/wordpress.png')
+        // },
     ]
     
     return (
@@ -141,9 +115,9 @@ const TechnologyStack = () => {
                 </h1>
                 <div className='techStackContainer'>
                     {Technologies.map(technology => {
-                        return <a href={technology.url} target="_blank" rel="noreferrer" className='technology' key={technology.id}>
+                        return <div className='technology' key={technology.id}>
                             <img src={technology.image} alt=""/>
-                        </a>
+                        </div>
                     })}
                 </div>
             </TechStack>

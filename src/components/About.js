@@ -15,7 +15,7 @@ const About = () => {
                 <TransparentButton bg="#0ea5e9"><a href={Resume} download="Resume-SumitKumar">My Resume</a></TransparentButton>
             </div>
             <ImageContainer>
-                <img src={require('../assets/self/Sumit.png')} alt="self pic" />
+                <img loading='lazy' src="https://res.cloudinary.com/dcdwstdye/image/upload/v1687200206/Portfolio%20Images/Sumit__cglxoh.png" alt="self pic" />
             </ImageContainer>
         </StyledAbout>
     </Container>
