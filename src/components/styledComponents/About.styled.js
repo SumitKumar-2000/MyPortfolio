@@ -18,7 +18,7 @@ export const StyledAbout = styled.div`
             -webkit-background-clip: text;
         }
     }
-
+    
     h1{
         font-weight: 800;
         color: ${({theme}) => theme.colors.body === "#F9FAFB" ? "#000000" : "#f3f4f6"};

@@ -8,7 +8,6 @@ const GlobalStyles  = createGlobalStyle`
     body{
         background: ${({theme}) => theme.colors.body};
         transition: all 0.5s 0s ease;
-        /* font-family: 'Raleway', sans-serif; */
     }
 
 `

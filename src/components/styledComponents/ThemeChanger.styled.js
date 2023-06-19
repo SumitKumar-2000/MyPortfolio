@@ -5,13 +5,20 @@ export const ThemeMode = styled.div`
     display: flex;
     padding: 2em 3em;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     
-    .themeIcon{
+    .logo{
         font-size: 3em;
         cursor: pointer;
         color: #0284c7;
+    }
+
+    .themeIcon{
+        width: 1.5em;
+        height: 1.5em;
+        cursor: pointer;
+        color: ${({theme}) => theme.colors.body === "#F9FAFB" ? "#000000" : "#f3f4f6"};
     }
 
     @media(max-width: ${({theme}) => theme.mobile}){
