@@ -9,6 +9,94 @@ const Projects = () => {
   const projectList = [
     {
         id : 1,
+        demoLink : 'https://hived-trello-clone.vercel.app/',
+        repoLink : "https://github.com/SumitKumar-2000/HIved-Trello-Clone",
+        Image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687246879/HIved_zrja9n.png",
+        Head : "Trello like WebApp | Hived",
+        Info : "Dynamic and responsive Trello like application, allowing users to create & manage multiple boards, and organize tasks within customizable lists, fostering efficient project management and collaboration.",
+        techStack : [
+            {
+                id : 1,
+                tech : "HTML"
+            },
+            {
+                id : 2,
+                tech : "Tailwind CSS"
+            },
+            {
+                id : 3,
+                tech : "Javascript"
+            },
+            {
+                id : 4,
+                tech : "Next.Js 13"
+            },
+            {
+                id : 5,
+                tech : "Next Auth"
+            },
+            {
+                id : 6,
+                tech : "Next.JS Server"
+            },
+            {
+                id : 7,
+                tech : "Mongoose"
+            },
+            {
+                id : 8,
+                tech : "MongoDB"
+            },
+            {
+                id : 9,
+                tech : "React-Beautiful-DND"
+            },
+        ],
+    },
+    {
+        id : 2,
+        demoLink : 'https://imagi-gen-web-app.vercel.app/',
+        repoLink : "https://github.com/SumitKumar-2000/Prompt-Ai-WebApp",
+        Image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687246136/Portfolio%20Images/imagingen_htao7y.png",
+        Head : "Social Prompting WebApp | ImagiGen",
+        Info : "Collaborative prompt sharing platform connecting technology enthusiasts, sports lovers, and individuals from various backgrounds, facilitatino the exploration and creation of daily prompts.",
+        techStack : [
+            {
+                id : 1,
+                tech : "HTML"
+            },
+            {
+                id : 2,
+                tech : "Tailwind CSS"
+            },
+            {
+                id : 3,
+                tech : "Javascript"
+            },
+            {
+                id : 4,
+                tech : "Next.Js 13"
+            },
+            {
+                id : 5,
+                tech : "Next Auth"
+            },
+            {
+                id : 6,
+                tech : "Next.JS Server"
+            },
+            {
+                id : 7,
+                tech : "Mongoose"
+            },
+            {
+                id : 8,
+                tech : "MongoDB"
+            },
+        ],
+    },
+    {
+        id : 3,
         demoLink : 'https://foodde.netlify.app/',
         repoLink : "https://github.com/SumitKumar-2000/e-FoodOrdering-WebApp",
         Image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200574/Portfolio%20Images/ZOMATO_Login_bxjehc.png",
@@ -62,7 +150,7 @@ const Projects = () => {
         ],
     },
     {
-        id : 2,
+        id : 4,
         demoLink : 'https://noteshell.netlify.app/',
         repoLink : "https://github.com/SumitKumar-2000/MERN-WebApp-Noteshell",
         Image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200602/Portfolio%20Images/NOTESHELL_Login_jvlvt3.png",
@@ -120,7 +208,7 @@ const Projects = () => {
         ],
     },
     {
-        id : 3,
+        id : 5,
         demoLink : 'https://xepenser.netlify.app/',
         repoLink : "https://github.com/SumitKumar-2000/ReactReduxWebApp-Xpenser/tree/master",
         Image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200594/Portfolio%20Images/Xepenser_AddExpense_me8kmz.png",
@@ -150,7 +238,7 @@ const Projects = () => {
         ],
     },
     {
-        id : 4,
+        id : 6,
         demoLink : 'https://textdesk.netlify.app/',
         repoLink : "https://github.com/SumitKumar-2000/reactWebApp-TextDesk",
         Image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687200626/Portfolio%20Images/TEXTDESK_Home_kmzwg8.png",
@@ -180,7 +268,7 @@ const Projects = () => {
         ],
     },
     {
-        id : 5,
+        id : 7,
         demoLink : "https://filterdashboard.netlify.app/",
         repoLink : "https://github.com/SumitKumar-2000/AgGrid-Dashboard",
         Image : "https://res.cloudinary.com/dcdwstdye/image/upload/v1687201986/Portfolio%20Images/Ag-grid-dashboard_arcngd.png",
